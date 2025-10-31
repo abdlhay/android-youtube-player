@@ -39,11 +39,11 @@ afterEvaluate {
                 pom {
                     name = PUBLISH_ARTIFACT_ID
                     description = PUBLISH_DESCRIPTION
-                    url = 'https://github.com/PierfrancescoSoffritti/android-youtube-player'
+                    url = 'https://github.com/abdlhay/android-youtube-player'
                     licenses {
                         license {
                             name = 'MIT License'
-                            url = 'https://github.com/PierfrancescoSoffritti/android-youtube-player/blob/master/LICENSE'
+                            url = 'https://github.com/abdlhay/android-youtube-player/blob/dev/LICENSE'
                         }
                     }
                     developers {
@@ -55,8 +55,8 @@ afterEvaluate {
                     }
                     scm {
                         connection = 'scm:git:github.com/PierfrancescoSoffritti/android-youtube-player.git'
-                        developerConnection = 'scm:git:ssh://github.com/PierfrancescoSoffritti/android-youtube-player.git'
-                        url = 'https://github.com/PierfrancescoSoffritti/android-youtube-player.git'
+                        developerConnection = 'scm:git:ssh://github.com/abdlhay/android-youtube-player.git'
+                        url = 'https://github.com/abdlhay/android-youtube-player.git'
                     }
                 }
             }

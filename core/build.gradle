@@ -34,11 +34,12 @@ dependencies {
   api "androidx.lifecycle:lifecycle-runtime-ktx:$versions.androidxLifecycleRuntime"
 }
 
+
 ext {
-  PUBLISH_GROUP_ID = 'com.pierfrancescosoffritti.androidyoutubeplayer'
+  PUBLISH_GROUP_ID = 'com.github.abdlhay'
   PUBLISH_VERSION = versions.publishVersion_core
-  PUBLISH_ARTIFACT_ID = 'core'
-  PUBLISH_DESCRIPTION = 'YouTube Player library for Android, stable and customizable.'
+  PUBLISH_ARTIFACT_ID = 'youtubeplayer-core'
+  PUBLISH_DESCRIPTION = 'Forked YouTube Player with downgraded kotlin version.'
 }
 
 apply from: "../scripts/publish-module.gradle"
